@@ -1,0 +1,222 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-color: white;
+}
+
+.visually-hidden
+{
+    display: none;
+}
+
+.header-small-button
+{
+    width: 18px;
+    height: 18px;
+}
+
+.header-want-button
+{
+    background-color: #756157;
+    border-radius: 4px;
+    border-color: gray;
+    color: white;
+}
+
+.header-navigation-list
+{
+    font-family: 'PT sans';
+    font-style: normal;
+    font-weight: 700px;
+    font-size:20px;
+    color:black;
+    margin-left: 239px;
+    margin-top: -50px;
+    list-style: none;
+    width: 350px;
+    height: 20px;
+}
+
+.header-navigation-list-item
+{
+    display: block;
+    float: left;
+    margin-right: 24px;
+}
+
+.header-interact-list
+{
+    list-style: none;
+    margin-left: 866px;
+    margin-top: -50px;
+}
+
+.header-interact-list-item
+{
+    display: block;
+    float: left;
+    margin-right: 24px;
+}
+
+.header-logo
+{
+    margin-left: 70px;
+}
+
+.welcome-title
+{
+    color: #81B3D3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.welcome-subtitle
+{
+    color: #766458;
+    text-align: center; 
+}
+
+.sedona-label
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+.welcome-page-part
+{
+    background-color: #242424;
+    background-image: url(../images/mounters.jpg);
+    text-align: center;
+}
+
+.subsedon-label
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.sedona-definitation
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:28px;
+    text-align: center;
+}
+
+.sedona-definitation-label
+{
+    font-family: 'PT sans';
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
+
+.reasons-list
+{
+    list-style: none;
+}
+
+.reasons-list-item
+{
+    float: left;
+    display: block;
+    width: 400px;
+    height: 384px;
+}
+
+.resouns-list-item-image
+{
+    margin-left: 162px;
+}
+
+.blue-item
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #82B3D3;
+    color: white;
+}
+
+.white-item
+{
+    background-color: white;
+    color: black;
+}
+
+.image-item
+{
+    overflow: hidden;
+    width: 800px;
+    height: 384px;
+}
+
+.reasons-list-item-title
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+.reasons-list-item-caption
+{
+    font-size: 22px;
+    text-align: center;
+}
+
+.reasons-list-item-subtitle
+{
+    text-align: center;
+}
+
+.sing-up
+{
+    width: 1200xp;
+    height: 417xp;
+}
+
+.sing-up-title
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sing-up-caption
+{
+    text-align: center;
+    color: #333333;
+}
+
+.sing-up-button
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #756157;
+    color: white;
+    width: 574px;
+    height: 60px;
+    margin-left: 313px;
+}
+
+.mailing
+{
+    background-image: url(../images/footer-image.jpg);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: rgb(32, 91, 91);
+    color:white;
+    width: 1200px;
+    height: 411px;
+}
+
+.footer-social-phonenumber
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 34px;
+}
