@@ -1,0 +1,417 @@
+.settings
+{
+    width: 1200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url(background.jpg);
+}
+
+.title-label
+{
+    position: relative;
+    top: 35px;
+    left: 70px;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 78px;
+    color: white;
+}
+
+.union-image
+{
+    position: relative;
+    left: 72px;
+    top: 20.8px
+}
+
+.hospital-label
+{
+    position: relative;
+    top: 20.8px;
+    left: 79px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+}
+
+.label
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+}
+
+
+.list-section
+{
+    position: relative;
+    top: 40px;
+    left: -30px;
+    height: 200px;
+}
+.list-settion-item
+{
+    float: left;
+    display: block;
+    margin-left: 40px;
+}
+.list
+{
+    margin-left: -44px;
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+.list-item
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.number-input
+{
+    width: 140px;
+    height: 38px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: white;
+}
+
+.number-input-right
+{
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -29px;
+}
+.number-input-left
+{
+    border-radius: 4px 0px 0px 4px;
+}
+.input-label
+{
+    position: relative;
+    left: -30px;
+    color: #a1a1a1;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.price-slider
+{
+    margin-top: 30px;
+    width: 275px;
+}
+
+.price-select-section
+{
+    margin-left: 100px;
+}
+
+.apply-button
+{
+    margin-top: 40px;
+
+    width: 160px;
+    height: 48px;
+    border: 0;
+    background: #82B3D3;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.reset-button
+{
+    width: 160px;
+    height: 48px;
+    border: 0;
+    background: transparent;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+.search-results-settings
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 72px;
+    padding-top: 62px;
+}
+.search-results-count
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    float: left;
+}
+.drop-list-placeholdier
+{
+    margin-right: 90px;
+    margin-left: 211px;
+    width: 290px;
+    height: 48px;
+    text-align: left;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    background-color: white;
+}
+.view-select-button
+{
+    height: 48px;    
+    width: 48px;
+    background-color: white;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.view-select-button-grid
+{
+    background-image: url(icon-table.jpg);
+}
+.view-select-button-pc
+{
+    background-image: url(icon-slideshow.jpg);
+}
+.view-select-button-list
+{
+    background-image: url(icon-list.jpg);
+}
+.selected
+{
+    border: 3px solid rgb(0, 0, 0);
+}
+.search-results
+{
+    width: 1200px;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-results-list-item
+{
+    width: 340px;
+    height: 438px;
+    display: block;
+    float:left;
+
+    margin-right: 18px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.hospital-type-label
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.price-label
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 60px;
+}
+
+.search-results-list-item-button
+{
+    width: 140px;
+    height: 37px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.search-results-list-item-button-more
+{
+    margin-top: 16px;
+    background: #756157;
+}
+.search-results-list-item-button-favorits
+{
+    background: #82B3D3;
+}
+.hotel-name
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.stars
+{
+    margin-top: 16px;
+    float: left
+}
+.stars-button
+{
+    margin-top: 16px;
+    margin-right: 15px;
+    float: right;
+    color: black;
+}
+
+.pages
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.pages-list-item
+{
+    width: 60px;
+    height: 60px;
+
+    margin-right: 4px;
+    margin-left: 4px;
+
+    text-align: center;
+    padding-top: 10px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+
+    display: block;
+    float: left;
+    background-color: #82B3D3;
+    border: none;
+    color: white;
+}
+.selected
+{
+    color: black;
+    background-color: #F2F2F2;
+}
+
+.hospital-count
+{
+    padding-top: 10px;
+
+    text-align: center;
+    float: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.hospital-count-value
+{
+    width: 90px;
+    height: 40px;
+
+    padding-top: 8px;
+    padding-left: 8px;
+
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid #a1a1a1;
+    text-align: left;
+    float:right;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.mailing
+{
+    text-align: center;
+    color:balck;
+    width: 1200px;
+    height: 411px;
+
+    margin-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+.mailing-title
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.mailing-caption
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+.mailing-input
+{
+    height: 60px;
+    width: 600px;
+    background: #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 22px;
+}
+
+.mailing-button
+{
+    height: 60px;
+    width: 200px;
+
+    background: #82B3D3;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    margin-left: -4px;
+    border: none;
+    
+    border-radius: 0px 10px 10px 0px;
+}
+
+.footer
+{
+    float: none;    
+}

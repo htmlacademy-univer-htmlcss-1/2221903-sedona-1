@@ -1,0 +1,136 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.navigation-panel
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 70px;
+}
+
+.visually-hidden
+{
+    display: none;
+}
+
+.header-small-button
+{
+    width: 18px;
+    height: 18px;
+}
+
+.header-want-button
+{
+    width: 160px;
+    height: 37px;
+
+    background-color: #756157;
+    border-radius: 4px;
+    border-color: #756157;
+
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+
+    background: #756157;
+    text-decoration: none;
+}
+
+.header-navigation-list
+{
+    width: 390px;
+    height: 66px;
+    left: 239px;
+    top: 0px;
+    margin-left: 239px;
+    margin-top: -50px;
+    list-style: none;
+    width: 350px;
+    height: 20px;
+}
+
+.header-navigation-list-item
+{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 26px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header-interact-list
+{
+    list-style: none;
+    margin-left: 866px;
+    margin-top: -50px;
+}
+
+.header-interact-list-item
+{
+    display: block;
+    float: left;
+    margin-right: 24px;
+}
+
+.header-logo
+{
+    margin-left: 70px;
+}
+
+.header-ractangles
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 57px;
+    width: 1200px;
+    margin-top: -57px;
+}
+
+.footer
+{
+    padding-top: 56.5px;
+    height: 120px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-social-phonenumber
+{
+    
+    font-size: 34px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.footer-social-list
+{
+    list-style: none;
+}
+
+.footer-social-list-item
+{
+    margin-left: 13.5px;
+    width: 22px;
+    height: 17px;
+    display: block;
+    float: left;
+}

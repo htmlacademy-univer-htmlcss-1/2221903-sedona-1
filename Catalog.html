@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet", href = "zero.css">
+  <link rel = "stylesheet", href = "mainstyle.css">
+  <link rel = "stylesheet", href = "catalog.css">
+  <title>Каталог</title>
+</head>
+<body>
+    <header>
+      <div class = "navigation-panel">
+        <img class = "header-logo" src="logo.svg" alt="Логотип седоны" width="139" height="70">
+        <nav class = "header-navigation">
+            <ul class = "header-navigation-list">
+              <li class = "header-navigation-list-item">
+                Главная
+              </li>
+              <li class = "header-navigation-list-item">
+                О седоне
+              </li>
+              <li class = "header-navigation-list-item">
+                Гостиницы
+              </li>
+            </ul>
+            <ul class = "header-interact-list button-list">
+              <li class = "header-interact-list-item header-small-button">
+                <span class = "visually-hidden button">
+                  Поиск
+                </span>
+                <img src="search.svg" class = header-small-button>
+              </li>
+              <li class = "header-interact-list-item header-small-button">
+                <span class = "visually-hidden button">
+                  Понравилось
+                </span>
+                <img src="favorite.svg" class = header-small-button>
+              </li>
+            </ul>
+            <button class = "header-want-button">
+              Хочу сюда
+            </button>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <div class = "settings">
+            <h1 class = "title-label">Гостинницы Седоны</h1>
+            <img class ="union-image" src="Union.svg" alt="union">
+            <span class = "hospital-label" > > Гостинницы</span>
+            <ul class = "list-section">
+                <li class = "list-settion-item">
+                    <span class = "label">
+                        Инфраструктура
+                    </span>
+                    <ul class = "list">
+                        <li class = "list-item">
+                            <Input type = "checkbox">Бассейн</Input>
+                        </li>
+                        <li class = "list-item">
+                            <Input type = "checkbox">Парковка</Input>
+                        </li>
+                        <li class = "list-item">
+                            <Input type = "checkbox">Wi-Fi</Input>
+                        </li>
+                    </ul>
+                </li>
+                <li class = "list-settion-item">
+                    <span class = "label">
+                        Тип жилья
+                    </span>
+                    <ul class = "list">
+                        <li class = "list-item">
+                            <Input type = "radio" name = "liveType">Гостиница</Input>
+                        </li>
+                        <li class = "list-item">
+                            <Input type = "radio" name = "liveType">Мотель</Input>
+                        </li>
+                        <li class = "list-item">
+                            <Input type = "radio" name = "liveType">Апартаменты</Input>
+                        </li>
+                    </ul>
+                </li>
+                <li class = "list-settion-item price-select-section">
+                    <div class = "label">
+                        Стоимость, Р:
+                    </div><br>
+                    <input class = "number-input number-input-left" type="number">
+                    <span class = "input-label">
+                        От
+                    </span>
+                    <input class = "number-input number-input-right" type="number">
+                    <span class = "input-label">
+                        До
+                    </span><br>
+                    <input class = "price-slider" type = "range">
+                </li>
+                <li class = "list-settion-item price-select-section">
+                    <button class = "apply-button">
+                        Применить
+                    </button><br>
+                    <button class = "reset-button">
+                        Сбросить
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class = "search-results-settings">
+            <h1 class = "search-results-count">
+                Найдено гостиниц : 38
+            </h1>
+            <button class = "drop-list-placeholdier">
+                Сначала дешёвые
+            </button>
+            <button class = "view-select-button view-select-button-grid selected"></button>
+            <button class = "view-select-button view-select-button-pc"></button>
+            <button class = "view-select-button view-select-button-list"></button>
+        </div>
+        <div class = "search-results">
+            <ul class = "search-results-list">
+                <li class = "search-results-list-item">
+                    <img src="hotel-1.jpg" alt="hotel-1">
+                    <div class = "hotel-name">
+                        Amara Respot & Spa
+                    </div>
+                    <span class = "hospital-type-label">
+                        Гостиница
+                    </span>
+                    <span class = "price-label">
+                        От 4000р
+                    </span><br>
+                    <button class = "search-results-list-item-button search-results-list-item-button-more">
+                        Подробнее
+                    </button>
+                    <button class = "search-results-list-item-button search-results-list-item-button-favorits">
+                        В избранное
+                    </button><br>
+                    <span class = "stars">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                    </span>
+                    <button class = "search-results-list-item-button stars-button">
+                        Рейтинг: 8,5
+                    </button>
+                </li>
+                <li class = "search-results-list-item">
+                    <img src="hotel-2.jpg" alt="hotel-2">
+                    <div class = "hotel-name">
+                        Amara Respot & Spa
+                    </div>
+                    <span class = "hospital-type-label">
+                        Гостиница
+                    </span>
+                    <span class = "price-label">
+                        От 5000р
+                    </span><br>
+                    <button class = "search-results-list-item-button search-results-list-item-button-more">
+                        Подробнее
+                    </button>
+                    <button class = "search-results-list-item-button search-results-list-item-button-favorits">
+                        В избранное
+                    </button><br>
+                    <span class = "stars">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                    </span>
+                    <button class = "search-results-list-item-button stars-button">
+                        Рейтинг: 9,2
+                    </button>
+                </li>
+                <li class = "search-results-list-item">
+                    <img src="hotel-3.jpg" alt="hotel-2">
+                    <div class = "hotel-name">
+                        Amara Respot & Spa
+                    </div>
+                    <span class = "hospital-type-label">
+                        Гостиница
+                    </span>
+                    <span class = "price-label">
+                        От 2500р
+                    </span><br>
+                    <button class = "search-results-list-item-button search-results-list-item-button-more">
+                        Подробнее
+                    </button>
+                    <button class = "search-results-list-item-button search-results-list-item-button-favorits">
+                        В избранное
+                    </button><br>
+                    <span class = "stars">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                    </span>
+                    <button class = "search-results-list-item-button stars-button">
+                        Рейтинг: 6,9
+                    </button>
+                </li>
+                <li class = "search-results-list-item">
+                    <img src="hotel-4.jpg" alt="hotel-4">
+                    <div class = "hotel-name">
+                        Amara Respot & Spa
+                    </div>
+                    <span class = "hospital-type-label">
+                        Гостиница
+                    </span>
+                    <span class = "price-label">
+                        От 1500p
+                    </span><br>
+                    <button class = "search-results-list-item-button search-results-list-item-button-more">
+                        Подробнее
+                    </button>
+                    <button class = "search-results-list-item-button search-results-list-item-button-favorits">
+                        В избранное
+                    </button><br>
+                    <span class = "stars">
+                        <img src="star.svg" alt="star">
+                        <img src="star.svg" alt="star">
+                    </span>
+                    <button class = "search-results-list-item-button stars-button">
+                        Рейтинг: 5,0
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class = "pages">
+            <ul class = "pages-list">
+                <li class = "pages-list-item selected">
+                    1
+                </li>
+                <li class = "pages-list-item">
+                    2
+                </li>
+                <li class = "pages-list-item">
+                    3
+                </li>
+                <li class = "pages-list-item">
+                    4
+                </li>
+                <li class = "pages-list-item">
+                    ...
+                </li>
+                <li class = "pages-list-item">
+                    10
+                </li>
+            </ul>
+            <div class = "hospital-count-value">
+                4
+            </div>
+            <div class = "hospital-count">
+                Гостиниц на странице:
+            </div>
+        </div>
+        <div class = "mailing">
+            <h2 class = "mailing-title">
+              ПОДПИШИТЕСЬ НА РАССЫЛКУ
+            </h2>
+            <div class = "mailing-caption">
+              Только полезная информация и никакого спама,<br> честное бойскаутерское!
+            </div>
+            <input class = "mailing-input" placeholder = "Ваш e-mail">
+            <button class = "mailing-button">
+              ПОДПИСАТЬСЯ
+            </button>
+        </div>
+    </main>
+    <footer class = "footer">
+        <ul class = "footer-social-list">
+            <li class = "footer-social-list-item">
+            <a href="vk.com" class = "footer-social-button">
+                <img src="VK.svg" alt="ВКонтакте" width="22" height="17">
+                <span class = "visually-hidden">
+                    ВКонтакте
+                </span>
+            </a>
+            </li>
+            <li class = "footer-social-list-item">
+            <img src="Telegramm.svg" alt="telegram" width="22" height="17">
+            <a href="telegramm.com" class = "footer-social-button">
+                <span class = "visually-hidden">
+                    Телеграмм
+                </span>
+            </a>
+            </li>
+            <li class = "footer-social-list-item">
+            <img src="YouTube.svg" alt="youtube" width="22" height="17">
+            <a href="youtube.com" class = "footer-social-button">
+                <span class = "visually-hidden">
+                    Youtube
+                </span>
+            </a>
+            </li>
+            <span class = "footer-social-phonenumber">
+            +7 (812) 812-12-12
+            </span>
+            <img src="HTML Academy.png">
+        </ul>
+    </footer>
+</body>
+</html>
