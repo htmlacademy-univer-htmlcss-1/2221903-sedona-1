@@ -1,12 +1,230 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet", href = "zero.css">
+  <link rel = "stylesheet", href = "mainstyle.css">
+  <link rel = "stylesheet", href = "index.css">
+  <title>Проект Sedona</title>
+</head>
+<body>
+  <header>
+    <div class = "navigation-panel">
+      <img class = "header-logo" src="logo.svg" alt="Логотип седоны" width="139" height="70">
+      <nav class = "header-navigation">
+          <ul class = "header-navigation-list">
+            <li class = "header-navigation-list-item">
+              Главная
+            </li>
+            <li class = "header-navigation-list-item">
+              О седоне
+            </li>
+            <li class = "header-navigation-list-item">
+              Гостиницы
+            </li>
+          </ul>
+          <ul class = "header-interact-list button-list">
+            <li class = "header-interact-list-item header-small-button">
+              <span class = "visually-hidden button">
+                Поиск
+              </span>
+              <img src="search.svg" class = header-small-button>
+            </li>
+            <li class = "header-interact-list-item header-small-button">
+              <span class = "visually-hidden button">
+                Понравилось
+              </span>
+              <img src="favorite.svg" class = header-small-button>
+            </li>
+          </ul>
+          <button class = "header-want-button">
+            Хочу сюда
+          </button>
+      </nav>
+    </div>
+  </header>  
+  <main>
+    <div class = "welcome-page-part">
+      <img class = "welcome-image" src="welcome.svg" alt="welcome">
+    </div>
+    <div class = "header-ractangles">
+      <img src="HeaderVector.svg" alt="">
+    </div>
+    <div class = "centred-lables">
+      <h3 class = "sedona-definitation">
+        СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+      </h3>
+      <div class = "sedona-definitation-label">
+        Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон
+      </div>
+    </div>
+    <section class = "reasons">
+      <ol class = "reasons-list">
+        <li class = "reasons-list-item blue-item">
+          <div class = "reasons-list-item-text">
+            <h4 class = "item-title-text reasons-list-item-title">
+              Настоящий городок
+            </h4>
+            <div class = "item-number reasons-list-item-subtitle">
+              - N1 -
+            </div>
+            <div class = "item-subtitle-text reasons-list-item-caption">
+              Седона - не аттракцион для туристов, там течёт своя жизнь.
+            </div>
+          </div>
+        </li>
+        <li class = "reasons-list-item image-item">
+          <img src="photo-1.png" alt="КАРТИНКА С ВЕРАНДОЙ">
+        </li>
+        <li class = "reasons-list-item white-item">
+          <div class = "reasons-list-item-text">
+            <img class = "resouns-list-item-image" src="house.svg" alt="КАРТИНКА ДОМА", class = "reasons-list-item-image">
+            <h4 class = "item-title-text reasons-list-item-title">
+              ЖИЛЬЁ
+            </h4>
+            <div class = "reasons-list-item-caption">
+              Рекомендуем пожить в настоящем мотеле, всё как в кино!
+            </div>
+          </div>
+        </li>
+        <li class = "reasons-list-item white-item">
+          <div class = "reasons-list-item-text">
+            <img class = "resouns-list-item-image" src="food.svg" alt="КАРТИНКА БУРГЕРА", class = "reasons-list-item-image">
+            <h4 class = "item-title-text reasons-list-item-title">
+              ЕДА
+            </h4>
+            <div class = "reasons-list-item-caption">
+              Всегда заказывайте топовый фирменный бургер, вы не разочфруетесь.
+            </div>
+          </div>
+        </li>
+        <li class = "reasons-list-item white-item">
+          <div class = "reasons-list-item-text">
+            <img class = "resouns-list-item-image" src="presents.svg" alt="КАРТИНКА ПОДАРКА", class = "reasons-list-item-image">
+            <h4 class = "item-title-text reasons-list-item-title">
+              СУВЕНИВЫ
+            </h4>
+            <div class = "reasons-list-item-caption">
+              Не только китайского но и местного производства
+            </div>
+          </div>
+        </li>
+        <li class = "reasons-list-item image-item">
+          <img src="photo-2.png" alt="КАРТИНКА МОСТА ДЬЯВОЛА">
+        </li>
+        <li class = "reasons-list-item blue-item">
+          <div class = "reasons-list-item-text">
+            <h4 class = "item-title-text reasons-list-item-title">
+              Там есть мост дьявола
+            </h4>
+            <div class = "item-number reasons-list-item-subtitle">
+              -- N2 --
+            </div>
+            <div class = "reasons-list-item-caption">
+              Да, по нему можно пройти! Если вы осмелитесь, разумеется
+            </div>
+          </div>
+        </li>
+        <li class = "reasons-list-item">
+          <div class = "reasons-list-item-text">
+            <h4 class = "item-title-text reasons-list-item-title">
+              Небольшая площадь
+            </h4>
+            <div class = "item-number reasons-list-item-subtitle">
+              -- N3 --
+            </div>
+            <div class = "reasons-list-item-caption">
+              Все достопримечательности находятся близко
+            </div>
+          </div>
+        </li>
+        <li class = "reasons-list-item">
+          <div class = "reasons-list-item-text">
+            <h4 class = "item-title-text reasons-list-item-title">
+              Красивая дорога
+            </h4>
+            <div class = "item-number reasons-list-item-subtitle">
+              -- N4 --
+            </div>
+            <div class = "reasons-list-item-caption">
+              Ехать в Седону из Лас-Вегаса совсем не скучно! 
+            </div>
+          </div>
+        </li>
+        <li class = "reasons-list-item">
+          <div class = "reasons-list-item-text">
+            <h4 class = "item-title-text reasons-list-item-title">
+              Мало<br> туристов
+            </h4>
+            <div class = "item-number reasons-list-item-subtitle">
+              -- N5 --
+            </div>
+            <div class = "reasons-list-item-caption">
+              Большиство едет в Гранд-Каньон и толпится там
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+    <div class = "sing-up">
+      <h2 class = "sing-up-title">
+        Заинтересовались?
+      </h2>
+      <div class = "sing-up-caption">
+        Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне
+      </div>
+      <a href="Catalog.html">
+        <button class = "sing-up-button">
+          Поиск гостиницы в Седоне
+        </button>
+      </a>
+    </div>
+    <div class = "mailing">
+      <h2 class = "mailing-title">
+        ПОДПИШИТЕСЬ НА РАССЫЛКУ
+      </h2>
+      <div class = "mailing-caption">
+        Только полезная информация и никакого спама,<br> честное бойскаутерское!
+      </div>
+      <input class = "mailing-input" placeholder = "Ваш e-mail">
+      <button class = "mailing-button">
+        ПОДПИСАТЬСЯ
+      </button>
+    </div>
+  </main>
+  <footer class = "footer">
+    <ul class = "footer-social-list">
+      <li class = "footer-social-list-item">
+        <a href="vk.com" class = "footer-social-button">
+          <img src="VK.svg" alt="ВКонтакте" width="22" height="17">
+          <span class = "visually-hidden">
+             ВКонтакте
+          </span>
+        </a>
+      </li>
+      <li class = "footer-social-list-item">
+        <img src="Telegramm.svg" alt="telegram" width="22" height="17">
+        <a href="telegramm.com" class = "footer-social-button">
+          <span class = "visually-hidden">
+             Телеграмм
+          </span>
+        </a>
+      </li>
+      <li class = "footer-social-list-item">
+        <img src="YouTube.svg" alt="youtube" width="22" height="17">
+        <a href="youtube.com" class = "footer-social-button">
+          <span class = "visually-hidden">
+             Youtube
+          </span>
+        </a>
+      </li>
+      <span class = "footer-social-phonenumber">
+        +7 (812) 812-12-12
+      </span>
+      <img src="HTML Academy.png">
+    </ul>
+  </footer>
+</body>
 </html>

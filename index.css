@@ -1,0 +1,269 @@
+.sedona-label
+{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+.welcome-page-part
+{
+    background-color: burlywood;
+    background-image: url(index-background.jpg);
+    text-align: center;
+    height: 485px;
+    width: 1200px;
+    padding-top: 51px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centred-lables
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 282px;
+    width: 654px;
+}
+
+.sedona-definitation
+{
+    font-size:28px;
+    text-align: center;
+    margin-top: 63px;
+    width: 620px;
+    height: 72px;
+    line-height: 36px;
+}
+
+.sedona-definitation-label
+{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.reasons-list
+{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 1600px;
+}
+
+.reasons-list-item
+{
+    float: left;
+    display: block;
+    width: 400px;
+    height: 384px;
+}
+
+.resouns-list-item-image
+{
+    width: 75;
+    height: 75;
+    margin-left: 80px;
+    margin-top: 81px;
+    margin-bottom: -81px;
+}
+
+.item-title-text
+{
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: 92px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.item-number
+{
+    width: 230px;
+    height: 21px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reasons-list-item-text
+{
+    width: 230px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reasons-list-item-title
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blue-item
+{
+    background: #82B3D3;
+    color: white;
+}
+
+.white-item
+{
+    background: rgba(131, 179, 211, 0.12);
+    color: black;
+}
+
+.image-item
+{
+    overflow: hidden;
+    width: 790px;
+    height: 384px;
+}
+
+.reasons-list-item-title
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+.reasons-list-item-caption
+{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.reasons-list-item-subtitle
+{
+    text-align: center;
+}
+
+.sing-up
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 417px;
+}
+
+.sing-up-title
+{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sing-up-caption
+{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.sing-up-button
+{
+    
+    font-style: normal;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    width: 574px;
+    height: 60px;
+    margin-left: 313px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    background: #756157;
+    border-color: #756157;
+
+}
+
+.mailing
+{
+    background-image: url(background.jpg);
+
+    text-align: center;
+    background-color: rgb(32, 91, 91);
+    color:white;
+    width: 1200px;
+    height: 411px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+.mailing-title
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.mailing-caption
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+.mailing-input
+{
+    height: 60px;
+    width: 600px;
+    background: #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 22px;
+}
+
+.mailing-button
+{
+    height: 60px;
+    width: 200px;
+    
+    background: #82B3D3;
+    color: white;
+    text-decoration: none;
+    border: none;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    margin-left: -4px;
+    
+    border-radius: 0px 10px 10px 0px;
+}
